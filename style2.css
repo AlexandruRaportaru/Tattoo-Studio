@@ -1,0 +1,61 @@
+ul {
+    background: #5b9be7 ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+ul
+a:hover {
+  background-color:rgba(255,255,255,0.5);
+}
+li a {
+    text-decoration: none;
+    color:rgb(145, 26, 26);
+}   
+
+li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.imagine {
+    margin-left: auto;
+}
+
+.imagine a {
+    font-size: 1.5rem;
+}
+
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.subsol {
+    background: gray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.subsol img {
+    width: 100px;
+    padding-bottom: 15px;
+}
+
+.card {
+    padding: 1rem;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.pr-2 {
+    padding-right: 0.25rem;
+}
+
+.padding-bottom {
+    padding-bottom: 1rem;
+}

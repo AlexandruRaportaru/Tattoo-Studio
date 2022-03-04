@@ -1,0 +1,97 @@
+ul {
+    background: #5b9be7 ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-item div {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
+.slide {
+    height: 400px;
+}
+
+ul /* mouse over link */
+a:hover {
+  background-color:rgba(255,255,255,0.5);
+}
+li a {
+    text-decoration: none;
+    color:rgb(145, 26, 26);
+}   
+
+li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.imagine {
+    margin-left: auto;
+}
+
+.imagine a {
+    font-size: 1.5rem;
+}
+
+h1,
+h3,
+p,
+button {
+    text-align: center;
+}
+
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.butoane {
+    text-align: center;
+}
+
+.caracteristici {
+    background: #eeeeee;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+/* .caracteristica {
+    width: 33.3%;
+    text-align: center;
+} */
+
+.row img {
+    border-radius: 50%;
+    border: 5px gray;
+}
+
+.subsol {
+    background: gray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.subsol img {
+    width: 100px;
+    padding-bottom: 15px;
+}
+
+/* @media only screen and (max-width: 900px) {
+    .c1 {
+        width: 100%;
+    }
+    .c2,
+    .c3 {
+        width: 50%;
+    }
+  } */
+  
+.font-weight-bold {
+    font-weight: bold;
+}
